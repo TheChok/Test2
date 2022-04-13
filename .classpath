@@ -37,6 +37,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
-	<classpathentry kind="lib" path="C:/tool/eclipse/eclipse/lombok.jar"/>
+	<classpathentry kind="lib" path="C:/Tool/lombok.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
