@@ -1,14 +1,12 @@
 package com.edu.car.mycar05;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
+import org.springframework.context.annotation.Configuration;
 
 import com.edu.car.mycar06.Car;
 
-@ContextConfiguration("appCtx.xml")
+@Configuration("appCtx.xml")
 class CarTest {
 
 	@Autowired

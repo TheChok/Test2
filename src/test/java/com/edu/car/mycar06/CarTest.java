@@ -1,18 +1,13 @@
 package com.edu.car.mycar06;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 // @RunWith(SpringJunit4ClassRunner.class)
-@ExtendWith(SpringExtension.class) // JUnit 5 버전일 경우
-@ContextConfiguration(locations="appCtx.xml")
+// @ExtendWith(SpringExtension.class) // JUnit 5 버전일 경우
+// @Configuration(locations="appCtx.xml")
 // @ContextConfiguration(locations="classpath:appCtx.xml")
 class CarTest {
 
